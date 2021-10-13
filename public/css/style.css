@@ -1,0 +1,59 @@
+.nav-container{
+    padding-left: 300px;
+    padding-right: 300px;
+    margin: auto;
+}
+
+.main{
+    padding-top: 20px;
+    width: 60%;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+
+.task-card{
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 0 2px lightsteelblue;
+}
+
+.error{
+    color: rgb(185, 72, 72);
+}
+
+.green-bg{
+    background-color: rgb(195, 231, 195);
+}
+
+.login-form, .signup-form{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(141, 140, 140);
+}
+
+.profile-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-left: 5px;
+}
+
+.alert{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 30px;
+}
